@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 10 18:41:26 IST 2025","Sat May 10 18:41:28 IST 2025","1484","","tests\login.spec.ts","Login","","","Negative: User tries to login without credentials.",""
+"passed","Sat May 10 18:41:22 IST 2025","Sat May 10 18:41:24 IST 2025","1852","","tests\login.spec.ts","Login","","","verify login with valid credentials",""
+"passed","Sat May 10 18:41:24 IST 2025","Sat May 10 18:41:26 IST 2025","1613","","tests\login.spec.ts","Login","","","Verify login with invalid credentials",""

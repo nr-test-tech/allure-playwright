@@ -12,13 +12,13 @@ const config: PlaywrightTestConfig = {
             // slowMo: 1000
         },
     },
+    
     timeout: 60 * 1000 * 5,
     retries: 0,
-    reporter: [["dot"], ["json", {
-        outputFile: "jsonReports/jsonReport.json"
-    }], ["html", {
-        open: "never"
-    }]]
+    reporter: [["dot"], ["allure-playwright"], 
+        ["html", {
+            open: "never"
+        }]]
 };
 
 export default config;

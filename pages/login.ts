@@ -24,7 +24,6 @@ export class LoginPage {
   async getErrormsg()
   {
     const errMessage =await this.errorMessage.textContent();
-    console.log('error---'+errMessage);
     return errMessage;
  }
  

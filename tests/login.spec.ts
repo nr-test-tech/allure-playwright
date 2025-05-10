@@ -27,7 +27,7 @@ test.describe('Login', () => {
 
     // Test: Verify login with invalid credentials
     test('Verify login with invalid credentials', async ({ page }) => {
-        await loginPage.login(users.customer.username, users.customer.password);
+        await loginPage.login(users.invalid_user.username, users.invalid_user.password);
         // Assert that the error message is visible
         const errorMessage = await loginPage.getErrormsg();
         await expect(errorMessage).toBe('Epic sadface: Sorry, this user has been locked out.');
